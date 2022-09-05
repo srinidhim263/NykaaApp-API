@@ -1,0 +1,16 @@
+2022-09-05 15:19:54 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 12668 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
+2022-09-05 15:19:54 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-05 15:19:55 - INFO - Starting service [Tomcat]
+2022-09-05 15:19:55 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-05 15:19:55 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-05 15:19:56 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-05 15:19:56 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-05 15:19:56 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-05 15:19:56 - INFO - HikariPool-1 - Starting...
+2022-09-05 15:19:56 - INFO - HikariPool-1 - Start completed.
+2022-09-05 15:19:56 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-05 15:19:56 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-05 15:19:57 - INFO - Started NykaaAppApiApplication in 3.603 seconds (JVM running for 3.913)
+2022-09-05 15:21:39 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-05 17:21:40 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-05 17:21:40 - INFO - HikariPool-1 - Shutdown completed.
