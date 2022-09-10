@@ -19,6 +19,7 @@ public class UserService {
     private RoleRepository roleRepository;
     @Autowired
     private BCryptPasswordEncoder bCryptPasswordEncoder;
+
     public void addUser(NykaaUser nykaaUser) {
 
         userRepository.save(nykaaUser);
@@ -37,8 +38,10 @@ public class UserService {
     public void deleteUser(int userId) {
         userRepository.deleteById(userId);
     }
+
     public NykaaUser registerAsCustomer(NykaaUser nykaaUser) {
-        Role role = roleRepository.findByName(Role.ROLE_USER);
+//        NykaaUser registerUser = userRepository.findByMailId(nykaaUser.getMailId());
+        Role role = roleRepository.findByName(Role.USER);
         nykaaUser.setRoles(Set.of(role));
         nykaaUser.setPassword(bCryptPasswordEncoder.encode(nykaaUser.getPassword()));
         return userRepository.save(nykaaUser);
@@ -47,7 +50,7 @@ public class UserService {
 
     public NykaaUser loginAsCustomer(NykaaUser nykaaUser) {
         NykaaUser user = userRepository.findByMailId(nykaaUser.getMailId());
-        if (user != null && bCryptPasswordEncoder.matches( nykaaUser.getPassword(),user.getPassword())) {
+        if (user != null && bCryptPasswordEncoder.matches(nykaaUser.getPassword(), user.getPassword())) {
             return user;
         }
         return null;

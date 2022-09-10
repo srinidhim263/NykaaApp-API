@@ -24,15 +24,17 @@ public class NykaaUser {
     private String mailId;
     private Long phoneNumber;
     private String password;
+
     @ManyToMany
-    @JsonIgnore
     @Cascade({org.hibernate.annotations.CascadeType.ALL})
     @JoinTable(joinColumns = {@JoinColumn(name = "user_id", referencedColumnName = "userId")},
             inverseJoinColumns = {@JoinColumn(name = "role_id", referencedColumnName = "id")})
     private Set<Role> roles;
+
     @JsonIgnore
     @OneToMany(mappedBy = "nykaaUser", cascade = CascadeType.ALL)
     private Set<Cart> carts;
+
     @JsonIgnore
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private Set<OrderProducts> orderProducts;

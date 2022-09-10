@@ -46,9 +46,4 @@ public class CategoryService {
         categoryRepository.deleteById(categoryId);
     }
 
-
-    public Category add(Category category) {
-
-        return categoryRepository.save(category);
-    }
 }

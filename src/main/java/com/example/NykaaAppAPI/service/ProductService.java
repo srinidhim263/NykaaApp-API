@@ -4,6 +4,8 @@ import com.example.NykaaAppAPI.model.Category;
 import com.example.NykaaAppAPI.model.Product;
 import com.example.NykaaAppAPI.repository.CategoryRepository;
 import com.example.NykaaAppAPI.repository.ProductRepository;
+import com.example.NykaaAppAPI.request.ProductRequest;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,9 +18,11 @@ public class ProductService {
 
     @Autowired
     private CategoryRepository categoryRepository;
-//    public addProduct(Product product) {
-//        productRepository.save(product);
-//
+//    public Product addProduct(ProductRequest productRequest) {
+//        Product product = new Product();
+//        BeanUtils.copyProperties(productRequest , product);
+//        Category category = categoryRepository.findById(productRequest.getCategoryId()
+//        ).orElseThrow(()
 //    }
 
     public List<Product> viewProduct() {

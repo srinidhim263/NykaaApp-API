@@ -33,8 +33,8 @@ public class SetupDataLoader implements ApplicationListener<ContextRefreshedEven
         }
 
 //         Create user roles
-        Role userRole = createRoleIfNotFound(Role.ROLE_USER);
-        Role adminRole = createRoleIfNotFound(Role.ROLE_ADMIN);
+        Role userRole = createRoleIfNotFound(Role.USER);
+        Role adminRole = createRoleIfNotFound(Role.ADMIN);
 
         // Create users
         createUserIfNotFound("admin", adminRole);

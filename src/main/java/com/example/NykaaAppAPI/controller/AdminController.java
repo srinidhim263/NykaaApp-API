@@ -21,7 +21,7 @@ public class AdminController {
     @PostMapping("/category")
     public ResponseEntity<APIResponse> addCategory(@RequestBody Category category) {
         APIResponse apiResponse = new APIResponse();
-        Category cat = categoryService.add(category);
+        Category cat = categoryService.addCategory(category);
         if (cat == null) {
             return new ResponseEntity<>(apiResponse, HttpStatus.NOT_FOUND);
         }
