@@ -9,6 +9,6 @@ public class ProductRequest {
     private Integer productId;
     private Integer categoryId;
     private String productName;
-    private String productPrice;
+    private Integer productPrice;
     private String productDescription;
 }

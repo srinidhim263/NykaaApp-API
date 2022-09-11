@@ -15,6 +15,7 @@ import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+@CrossOrigin(value={"http://localhost:3000/"})
 @RestController
 @RequestMapping("/api/category")
 public class CategoryController {
@@ -22,7 +23,7 @@ public class CategoryController {
     private CategoryService categoryService;
     @Autowired
     private APIResponse apiResponse;
-    @Secured({Role.ROLE_ADMIN})
+   // @Secured({Role.ROLE_ADMIN})
     @PostMapping
     public ResponseEntity<APIResponse> addCategory(@RequestBody Category category) {
         Category addedCategory = categoryService.addCategory(category);
@@ -34,7 +35,7 @@ public class CategoryController {
         return new ResponseEntity<>(apiResponse , HttpStatus.CREATED);
     }
 
-    @Secured({Role.ROLE_ADMIN , Role.ROLE_USER})
+  //  @Secured({Role.ROLE_ADMIN , Role.ROLE_USER})
     @GetMapping("/all")
     public ResponseEntity<APIResponse> viewCategory(@PathVariable int categoryId) {
         List<Category> categories = categoryService.viewCategory();
@@ -45,7 +46,7 @@ public class CategoryController {
         apiResponse.setData(categories);
         return new ResponseEntity<>(apiResponse , HttpStatus.OK);
     }
-    @Secured({Role.ROLE_ADMIN})
+  //  @Secured({Role.ROLE_ADMIN})
     @PutMapping
     public ResponseEntity<APIResponse> updateCategory(@RequestBody Category category) {
         Category updatedCategory  = categoryService.updateCategory(category);
@@ -56,7 +57,7 @@ public class CategoryController {
         apiResponse.setData(updatedCategory);
         return  new ResponseEntity<>(apiResponse, HttpStatus.OK);
     }
-    @Secured({Role.ROLE_ADMIN})
+  //  @Secured({Role.ROLE_ADMIN})
     @DeleteMapping("/{categoryId}")
     public ResponseEntity<APIResponse> deleteCategory(@PathVariable Integer categoryId) {
         categoryService.deleteCategory(categoryId);

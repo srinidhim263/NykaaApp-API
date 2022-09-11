@@ -43,10 +43,10 @@ public class SecurityConfig {
                 .authorizeRequests()
                 .antMatchers("/api/auth/**")
                 .permitAll()
-                .and()
-                .authorizeRequests()
-                .anyRequest()
-                .authenticated()
+//                .and()
+//                .authorizeRequests()
+//                .anyRequest()
+//                .authenticated()
                 .and().httpBasic()
                 .and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 

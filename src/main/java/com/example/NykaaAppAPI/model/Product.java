@@ -1,5 +1,6 @@
 package com.example.NykaaAppAPI.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -26,6 +27,7 @@ public class Product {
     @JoinColumn(name = "category_id", referencedColumnName = "categoryId")
     private Category category;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "product", cascade = CascadeType.ALL)
     private Set<Cart> carts;
 

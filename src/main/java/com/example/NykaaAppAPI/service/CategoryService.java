@@ -4,6 +4,7 @@ import com.example.NykaaAppAPI.exception.ResourceAlreadyExistException;
 import com.example.NykaaAppAPI.exception.ResourceNotFoundException;
 import com.example.NykaaAppAPI.model.Category;
 import com.example.NykaaAppAPI.repository.CategoryRepository;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,10 +16,11 @@ public class CategoryService {
     private CategoryRepository categoryRepository;
 
     public Category addCategory(Category category) {
+        BeanUtils.copyProperties(category, category);
         boolean isExists = categoryRepository.findByCategoryName(category.getCategoryName()).isPresent();
         if (isExists)
             throw new ResourceAlreadyExistException("Category already exists.");
-
+        System.out.println(category);
          return  categoryRepository.save(category);
 
     }
