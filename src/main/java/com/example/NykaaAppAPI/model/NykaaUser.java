@@ -32,8 +32,8 @@ public class NykaaUser {
     private Set<Role> roles;
 
     @JsonIgnore
-    @OneToMany(mappedBy = "nykaaUser", cascade = CascadeType.ALL)
-    private Set<Cart> carts;
+    @OneToOne(mappedBy = "nykaaUser", cascade = CascadeType.ALL)
+    private Cart cart;
 
     @JsonIgnore
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
@@ -43,4 +43,6 @@ public class NykaaUser {
         this.mailId = mailId;
         this.password = password;
     }
+
+
 }

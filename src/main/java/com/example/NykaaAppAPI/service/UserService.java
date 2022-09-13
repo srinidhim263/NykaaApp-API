@@ -1,5 +1,4 @@
 package com.example.NykaaAppAPI.service;
-
 import com.example.NykaaAppAPI.model.NykaaUser;
 import com.example.NykaaAppAPI.model.Role;
 import com.example.NykaaAppAPI.repository.RoleRepository;
@@ -19,25 +18,6 @@ public class UserService {
     private RoleRepository roleRepository;
     @Autowired
     private BCryptPasswordEncoder bCryptPasswordEncoder;
-
-    public void addUser(NykaaUser nykaaUser) {
-
-        userRepository.save(nykaaUser);
-    }
-
-    public List<NykaaUser> viewUser() {
-
-        return userRepository.findAll();
-    }
-
-    public void updateUser(NykaaUser nykaaUser) {
-
-        userRepository.save(nykaaUser);
-    }
-
-    public void deleteUser(int userId) {
-        userRepository.deleteById(userId);
-    }
 
     public NykaaUser registerAsCustomer(NykaaUser nykaaUser) {
 //        NykaaUser registerUser = userRepository.findByMailId(nykaaUser.getMailId());

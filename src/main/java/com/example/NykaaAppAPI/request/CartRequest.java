@@ -9,4 +9,5 @@ public class CartRequest {
     private Integer id;
     private  Integer userId;
     private Integer productId;
+    private Integer count;
 }

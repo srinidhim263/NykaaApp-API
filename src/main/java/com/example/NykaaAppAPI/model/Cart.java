@@ -10,8 +10,9 @@ public class Cart {
     @ManyToOne
     @JoinColumn(name = "user_id", referencedColumnName = "userId")
     private NykaaUser nykaaUser;
-
     @ManyToOne
     @JoinColumn(name = "product_id", referencedColumnName = "productId")
     private Product product;
+
+
 }

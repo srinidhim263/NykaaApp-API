@@ -33,6 +33,8 @@ public class ProductService {
 
         product.setCategory(category);
 
+        System.out.println(product);
+
         boolean isProductExists = productRepository.findByProductName(product.getProductName()).isPresent();
         if (isProductExists)
             throw new ResourceAlreadyExistException("Product already exists.");
@@ -40,7 +42,6 @@ public class ProductService {
     }
 
     public List<Product> viewProducts() {
-
         return productRepository.findAll();
     }
 

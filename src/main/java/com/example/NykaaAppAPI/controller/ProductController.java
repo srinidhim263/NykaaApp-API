@@ -13,6 +13,7 @@ import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+@CrossOrigin(value={"http://localhost:3000"})
 @RestController
 @RequestMapping("/api/product")
 public class ProductController {
@@ -43,7 +44,7 @@ public class ProductController {
     public ResponseEntity<APIResponse> deleteProduct(@PathVariable Integer productId) {
         productService.deleteProduct(productId);
         apiResponse.setStatus(HttpStatus.OK.value());
-        apiResponse.setData(new SuccessResponse());
+        apiResponse.setData(productService.viewProducts());
         return new ResponseEntity<>(apiResponse, HttpStatus.CREATED);
     }
 
@@ -53,7 +54,7 @@ public class ProductController {
         List<Product> products = productService.viewProducts();
         apiResponse.setStatus(HttpStatus.OK.value());
         apiResponse.setData(products);
-        return new ResponseEntity<>(apiResponse, HttpStatus.CREATED);
+        return new ResponseEntity<>(apiResponse, HttpStatus.OK);
     }
 
    // @Secured({Role.ROLE_ADMIN, Role.ROLE_USER})
