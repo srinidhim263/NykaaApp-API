@@ -27,8 +27,16 @@ public class Product {
 
     @JsonIgnore
     @OneToMany(mappedBy = "product", cascade = CascadeType.ALL)
-    private Set<Cart> carts;
+    private Set<CartProduct> cartProducts;
 
     @OneToMany(mappedBy = "product", cascade = CascadeType.ALL)
     private Set<OrderProducts> orderProducts;
+
+
+    @OneToOne
+    @JoinColumn(name = "file_id", referencedColumnName = "id")
+    private File file;
+
+
+
 }

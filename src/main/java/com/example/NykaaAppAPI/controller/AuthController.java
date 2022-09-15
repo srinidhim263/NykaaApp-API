@@ -3,6 +3,7 @@ package com.example.NykaaAppAPI.controller;
 import com.example.NykaaAppAPI.exception.ResourceNotFoundException;
 import com.example.NykaaAppAPI.model.NykaaUser;
 import com.example.NykaaAppAPI.response.APIResponse;
+import com.example.NykaaAppAPI.response.AuthResponse;
 import com.example.NykaaAppAPI.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -34,7 +35,7 @@ public class AuthController {
     @PostMapping("/login")
     public ResponseEntity<APIResponse> login(@RequestBody NykaaUser nykaaUser) {
         APIResponse apiResponse = new APIResponse();
-        NykaaUser loggedInUser = userService.loginAsCustomer(nykaaUser);
+        AuthResponse loggedInUser = userService.loginAsCustomer(nykaaUser);
         if (loggedInUser == null) {
             throw new ResourceNotFoundException("User Not found");
         }

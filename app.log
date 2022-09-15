@@ -1,64 +1,20 @@
-2022-09-13 00:12:39 - WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m17s495ms57µs200ns).
-2022-09-13 00:14:14 - ERROR -  category does not exist.
-2022-09-13 00:14:15 - ERROR -  category does not exist.
-2022-09-13 00:14:17 - ERROR -  category does not exist.
-2022-09-13 00:14:17 - ERROR -  category does not exist.
-2022-09-13 00:14:17 - ERROR -  category does not exist.
-2022-09-13 09:46:20 - WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h21m15s641ms784µs).
-2022-09-13 11:34:09 - INFO - HikariPool-1 - Shutdown initiated...
-2022-09-13 11:34:09 - INFO - HikariPool-1 - Shutdown completed.
-2022-09-13 11:34:16 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 11980 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
-2022-09-13 11:34:16 - INFO - No active profile set, falling back to 1 default profile: "default"
-2022-09-13 11:34:18 - INFO - Starting service [Tomcat]
-2022-09-13 11:34:18 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-13 11:34:18 - INFO - Initializing Spring embedded WebApplicationContext
-2022-09-13 11:34:18 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-09-13 11:34:18 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-09-13 11:34:18 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-09-13 11:34:19 - INFO - HikariPool-1 - Starting...
-2022-09-13 11:34:19 - INFO - HikariPool-1 - Start completed.
-2022-09-13 11:34:19 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2022-09-13 11:34:20 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-09-13 11:34:21 - INFO - Started NykaaAppApiApplication in 5.145 seconds (JVM running for 5.544)
-2022-09-13 11:34:29 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-13 11:36:25 - ERROR -  category does not exist.
-2022-09-13 12:00:41 - INFO - HikariPool-1 - Shutdown initiated...
-2022-09-13 12:00:41 - INFO - HikariPool-1 - Shutdown completed.
-2022-09-13 12:00:48 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 11744 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
-2022-09-13 12:00:48 - INFO - No active profile set, falling back to 1 default profile: "default"
-2022-09-13 12:00:50 - INFO - Starting service [Tomcat]
-2022-09-13 12:00:50 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-13 12:00:50 - INFO - Initializing Spring embedded WebApplicationContext
-2022-09-13 12:00:50 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-09-13 12:00:50 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-09-13 12:00:50 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-09-13 12:00:50 - INFO - HikariPool-1 - Starting...
-2022-09-13 12:00:50 - INFO - HikariPool-1 - Start completed.
-2022-09-13 12:00:50 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2022-09-13 12:00:51 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-09-13 12:00:52 - INFO - Started NykaaAppApiApplication in 5.492 seconds (JVM running for 5.923)
-2022-09-13 12:00:55 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-09-13 13:15:36 - WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m44s875ms44µs400ns).
-2022-09-13 13:37:22 - WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m45s910ms765µs400ns).
-2022-09-13 16:01:32 - INFO - HikariPool-1 - Shutdown initiated...
-2022-09-13 16:01:32 - INFO - HikariPool-1 - Shutdown completed.
-2022-09-13 16:01:41 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 11800 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
-2022-09-13 16:01:41 - INFO - No active profile set, falling back to 1 default profile: "default"
-2022-09-13 16:01:43 - INFO - Starting service [Tomcat]
-2022-09-13 16:01:43 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-13 16:01:43 - INFO - Initializing Spring embedded WebApplicationContext
-2022-09-13 16:01:43 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-09-13 16:01:43 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-09-13 16:01:43 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-09-13 16:01:43 - INFO - HikariPool-1 - Starting...
-2022-09-13 16:01:44 - INFO - HikariPool-1 - Start completed.
-2022-09-13 16:01:44 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2022-09-13 16:01:44 - ERROR - Failed to initialize JPA EntityManagerFactory: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-2022-09-13 16:01:44 - INFO - HikariPool-1 - Shutdown initiated...
-2022-09-13 16:01:44 - INFO - HikariPool-1 - Shutdown completed.
-2022-09-13 16:01:44 - INFO - Stopping service [Tomcat]
-2022-09-13 16:01:44 - ERROR - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
+2022-09-14 09:59:13 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 18592 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
+2022-09-14 09:59:13 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-14 09:59:14 - INFO - Starting service [Tomcat]
+2022-09-14 09:59:14 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 09:59:14 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-14 09:59:14 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-14 09:59:14 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-14 09:59:14 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-14 09:59:14 - INFO - HikariPool-1 - Starting...
+2022-09-14 09:59:14 - INFO - HikariPool-1 - Start completed.
+2022-09-14 09:59:15 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-14 09:59:15 - ERROR - Failed to initialize JPA EntityManagerFactory: Unable to find column with logical name: id in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
+2022-09-14 09:59:15 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-14 09:59:15 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-14 09:59:15 - INFO - Stopping service [Tomcat]
+2022-09-14 09:59:15 - ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Unable to find column with logical name: id in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
@@ -76,14 +32,14 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
 	at com.example.NykaaAppAPI.NykaaAppApiApplication.main(NykaaAppApiApplication.java:11)
-Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-	at org.hibernate.cfg.annotations.CollectionBinder.getCollectionBinder(CollectionBinder.java:325)
-	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1977)
-	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:968)
-	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:793)
-	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:225)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282)
+Caused by: org.hibernate.MappingException: Unable to find column with logical name: id in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
+	at org.hibernate.cfg.Ejb3JoinColumn.checkReferencedColumnsType(Ejb3JoinColumn.java:839)
+	at org.hibernate.cfg.BinderHelper.createSyntheticPropertyReference(BinderHelper.java:126)
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:104)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processEndOfQueue(InFlightMetadataCollectorImpl.java:1750)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processFkSecondPassesInOrder(InFlightMetadataCollectorImpl.java:1694)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1623)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:295)
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
 	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
@@ -94,32 +50,36 @@ Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non colle
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
 	... 16 common frames omitted
-2022-09-13 17:45:39 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 14088 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
-2022-09-13 17:45:39 - INFO - No active profile set, falling back to 1 default profile: "default"
-2022-09-13 17:45:41 - INFO - Starting service [Tomcat]
-2022-09-13 17:45:41 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-13 17:45:41 - INFO - Initializing Spring embedded WebApplicationContext
-2022-09-13 17:45:41 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-09-13 17:45:41 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-09-13 17:45:41 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-09-13 17:45:41 - INFO - HikariPool-1 - Starting...
-2022-09-13 17:45:41 - INFO - HikariPool-1 - Start completed.
-2022-09-13 17:45:41 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2022-09-13 17:45:42 - ERROR - Failed to initialize JPA EntityManagerFactory: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-2022-09-13 17:45:42 - INFO - HikariPool-1 - Shutdown initiated...
-2022-09-13 17:45:42 - INFO - HikariPool-1 - Shutdown completed.
-2022-09-13 17:45:42 - INFO - Stopping service [Tomcat]
-2022-09-13 17:45:42 - ERROR - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+2022-09-14 10:00:10 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 11784 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
+2022-09-14 10:00:10 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-14 10:00:12 - INFO - Starting service [Tomcat]
+2022-09-14 10:00:12 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 10:00:12 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-14 10:00:12 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-14 10:00:12 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-14 10:00:12 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-14 10:00:12 - INFO - HikariPool-1 - Starting...
+2022-09-14 10:00:12 - INFO - HikariPool-1 - Start completed.
+2022-09-14 10:00:12 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-14 10:00:13 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-14 10:00:13 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-14 10:00:13 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-14 10:00:13 - INFO - Stopping service [Tomcat]
+2022-09-14 10:00:13 - ERROR - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController': Unsatisfied dependency expressed through field 'cartService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartService': Unsatisfied dependency expressed through field 'cartRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartRepository' defined in com.example.NykaaAppAPI.repository.CartRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser); Reason: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
@@ -128,50 +88,134 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
 	at com.example.NykaaAppAPI.NykaaAppApiApplication.main(NykaaAppApiApplication.java:11)
-Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-	at org.hibernate.cfg.annotations.CollectionBinder.getCollectionBinder(CollectionBinder.java:325)
-	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1977)
-	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:968)
-	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:793)
-	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:225)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartService': Unsatisfied dependency expressed through field 'cartRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartRepository' defined in com.example.NykaaAppAPI.repository.CartRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser); Reason: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartRepository' defined in com.example.NykaaAppAPI.repository.CartRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser); Reason: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 34 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser); Reason: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:107)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:95)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1061)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:97)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:87)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:87)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:365)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231)
+	at org.springframework.data.util.Lazy.get(Lazy.java:115)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
-	... 16 common frames omitted
-2022-09-13 18:00:21 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 1472 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
-2022-09-13 18:00:21 - INFO - No active profile set, falling back to 1 default profile: "default"
-2022-09-13 18:00:23 - INFO - Starting service [Tomcat]
-2022-09-13 18:00:23 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-13 18:00:23 - INFO - Initializing Spring embedded WebApplicationContext
-2022-09-13 18:00:23 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-09-13 18:00:23 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-09-13 18:00:23 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-09-13 18:00:23 - INFO - HikariPool-1 - Starting...
-2022-09-13 18:00:23 - INFO - HikariPool-1 - Start completed.
-2022-09-13 18:00:23 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2022-09-13 18:00:24 - ERROR - Failed to initialize JPA EntityManagerFactory: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-2022-09-13 18:00:24 - INFO - HikariPool-1 - Shutdown initiated...
-2022-09-13 18:00:24 - INFO - HikariPool-1 - Shutdown completed.
-2022-09-13 18:00:24 - INFO - Stopping service [Tomcat]
-2022-09-13 18:00:24 - ERROR - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	... 44 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:119)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:259)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:93)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:103)
+	... 66 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:91)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:438)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:414)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:448)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:471)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:414)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:367)
+	at java.base/java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:330)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:349)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:332)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:250)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:251)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:384)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:385)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:96)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:89)
+	... 70 common frames omitted
+2022-09-14 10:02:35 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 17824 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
+2022-09-14 10:02:35 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-14 10:02:36 - INFO - Starting service [Tomcat]
+2022-09-14 10:02:36 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 10:02:36 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-14 10:02:36 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-14 10:02:36 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-14 10:02:37 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-14 10:02:37 - INFO - HikariPool-1 - Starting...
+2022-09-14 10:02:37 - INFO - HikariPool-1 - Start completed.
+2022-09-14 10:02:37 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-14 10:02:37 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-14 10:02:38 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-14 10:02:38 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-14 10:02:38 - INFO - Stopping service [Tomcat]
+2022-09-14 10:02:38 - ERROR - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController': Unsatisfied dependency expressed through field 'cartService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartService': Unsatisfied dependency expressed through field 'cartRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartRepository' defined in com.example.NykaaAppAPI.repository.CartRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser); Reason: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
@@ -180,50 +224,134 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
 	at com.example.NykaaAppAPI.NykaaAppApiApplication.main(NykaaAppApiApplication.java:11)
-Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-	at org.hibernate.cfg.annotations.CollectionBinder.getCollectionBinder(CollectionBinder.java:325)
-	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1977)
-	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:968)
-	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:793)
-	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:225)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartService': Unsatisfied dependency expressed through field 'cartRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartRepository' defined in com.example.NykaaAppAPI.repository.CartRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser); Reason: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartRepository' defined in com.example.NykaaAppAPI.repository.CartRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser); Reason: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 34 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser); Reason: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:107)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:95)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1061)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:97)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:87)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:87)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:365)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231)
+	at org.springframework.data.util.Lazy.get(Lazy.java:115)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
-	... 16 common frames omitted
-2022-09-13 18:29:58 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 7436 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
-2022-09-13 18:29:58 - INFO - No active profile set, falling back to 1 default profile: "default"
-2022-09-13 18:30:00 - INFO - Starting service [Tomcat]
-2022-09-13 18:30:00 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-13 18:30:01 - INFO - Initializing Spring embedded WebApplicationContext
-2022-09-13 18:30:01 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-09-13 18:30:01 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-09-13 18:30:01 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-09-13 18:30:01 - INFO - HikariPool-1 - Starting...
-2022-09-13 18:30:01 - INFO - HikariPool-1 - Start completed.
-2022-09-13 18:30:01 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2022-09-13 18:30:01 - ERROR - Failed to initialize JPA EntityManagerFactory: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-2022-09-13 18:30:01 - INFO - HikariPool-1 - Shutdown initiated...
-2022-09-13 18:30:01 - INFO - HikariPool-1 - Shutdown completed.
-2022-09-13 18:30:01 - INFO - Stopping service [Tomcat]
-2022-09-13 18:30:01 - ERROR - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	... 44 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:119)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:259)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:93)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:103)
+	... 66 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:91)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:438)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:414)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:448)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:471)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:414)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:367)
+	at java.base/java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:330)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:349)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:332)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:250)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:251)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:384)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:385)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:96)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:89)
+	... 70 common frames omitted
+2022-09-14 10:04:21 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 18380 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
+2022-09-14 10:04:21 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-14 10:04:22 - INFO - Starting service [Tomcat]
+2022-09-14 10:04:22 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 10:04:22 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-14 10:04:22 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-14 10:04:22 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-14 10:04:22 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-14 10:04:22 - INFO - HikariPool-1 - Starting...
+2022-09-14 10:04:23 - INFO - HikariPool-1 - Start completed.
+2022-09-14 10:04:23 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-14 10:04:23 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-14 10:04:23 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-14 10:04:23 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-14 10:04:23 - INFO - Stopping service [Tomcat]
+2022-09-14 10:04:23 - ERROR - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController': Unsatisfied dependency expressed through field 'cartService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartService': Unsatisfied dependency expressed through field 'cartRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartRepository' defined in com.example.NykaaAppAPI.repository.CartRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser); Reason: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
@@ -232,41 +360,137 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
 	at com.example.NykaaAppAPI.NykaaAppApiApplication.main(NykaaAppApiApplication.java:11)
-Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-	at org.hibernate.cfg.annotations.CollectionBinder.getCollectionBinder(CollectionBinder.java:325)
-	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1977)
-	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:968)
-	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:793)
-	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:225)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartService': Unsatisfied dependency expressed through field 'cartRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartRepository' defined in com.example.NykaaAppAPI.repository.CartRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser); Reason: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartRepository' defined in com.example.NykaaAppAPI.repository.CartRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser); Reason: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 34 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser); Reason: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:107)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:95)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1061)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:97)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:87)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:87)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:365)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231)
+	at org.springframework.data.util.Lazy.get(Lazy.java:115)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
-	... 16 common frames omitted
-2022-09-13 18:48:55 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 14784 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
-2022-09-13 18:48:56 - INFO - No active profile set, falling back to 1 default profile: "default"
-2022-09-13 18:48:57 - INFO - Starting service [Tomcat]
-2022-09-13 18:48:57 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-13 18:48:57 - INFO - Initializing Spring embedded WebApplicationContext
-2022-09-13 18:48:57 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-09-13 18:48:58 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-09-13 18:48:58 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-09-13 18:48:58 - INFO - HikariPool-1 - Starting...
-2022-09-13 18:48:58 - INFO - HikariPool-1 - Start completed.
-2022-09-13 18:48:58 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2022-09-13 18:48:58 - ERROR - Failed to initialize JPA EntityManagerFactory: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-2022-09-13 18:48:58 - INFO - HikariPool-1 - Shutdown initiated...
-2022-09-13 18:48:58 - INFO - HikariPool-1 - Shutdown completed.
-2022-09-13 18:48:58 - INFO - Stopping service [Tomcat]
-2022-09-13 18:48:58 - ERROR - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
+	... 44 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional com.example.NykaaAppAPI.repository.CartRepository.findByProductUser(com.example.NykaaAppAPI.model.NykaaUser)! No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:119)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:259)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:93)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:103)
+	... 66 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property 'user' found for type 'Product' Traversed path: Cart.product.
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:91)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:438)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:414)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:448)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:471)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:414)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:367)
+	at java.base/java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:330)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:349)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:332)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:250)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:251)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:384)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:385)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:96)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:89)
+	... 70 common frames omitted
+2022-09-14 10:06:50 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 18932 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
+2022-09-14 10:06:50 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-14 10:06:51 - INFO - Starting service [Tomcat]
+2022-09-14 10:06:51 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 10:06:52 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-14 10:06:52 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-14 10:06:52 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-14 10:06:52 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-14 10:06:52 - INFO - HikariPool-1 - Starting...
+2022-09-14 10:06:52 - INFO - HikariPool-1 - Start completed.
+2022-09-14 10:06:52 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-14 10:06:53 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-14 10:06:54 - INFO - Started NykaaAppApiApplication in 4.702 seconds (JVM running for 5.059)
+2022-09-14 10:07:47 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-14 11:04:50 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-14 11:04:50 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-14 11:05:03 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 16420 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
+2022-09-14 11:05:03 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-14 11:05:04 - INFO - Starting service [Tomcat]
+2022-09-14 11:05:04 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 11:05:05 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-14 11:05:05 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-14 11:05:05 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-14 11:05:05 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-14 11:05:05 - INFO - HikariPool-1 - Starting...
+2022-09-14 11:05:05 - INFO - HikariPool-1 - Start completed.
+2022-09-14 11:05:05 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-14 11:05:05 - ERROR - Failed to initialize JPA EntityManagerFactory: Unknown mappedBy in: com.example.NykaaAppAPI.model.File.product, referenced property unknown: com.example.NykaaAppAPI.model.Product.file
+2022-09-14 11:05:05 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-14 11:05:05 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-14 11:05:05 - INFO - Stopping service [Tomcat]
+2022-09-14 11:05:05 - ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Unknown mappedBy in: com.example.NykaaAppAPI.model.File.product, referenced property unknown: com.example.NykaaAppAPI.model.Product.file
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
@@ -284,62 +508,8 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
 	at com.example.NykaaAppAPI.NykaaAppApiApplication.main(NykaaAppApiApplication.java:11)
-Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-	at org.hibernate.cfg.annotations.CollectionBinder.getCollectionBinder(CollectionBinder.java:325)
-	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1977)
-	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:968)
-	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:793)
-	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:225)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
-	... 16 common frames omitted
-2022-09-13 19:04:04 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 17336 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
-2022-09-13 19:04:04 - INFO - No active profile set, falling back to 1 default profile: "default"
-2022-09-13 19:04:05 - INFO - Starting service [Tomcat]
-2022-09-13 19:04:05 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-13 19:04:05 - INFO - Initializing Spring embedded WebApplicationContext
-2022-09-13 19:04:06 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-09-13 19:04:06 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-09-13 19:04:06 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-09-13 19:04:06 - INFO - HikariPool-1 - Starting...
-2022-09-13 19:04:06 - INFO - HikariPool-1 - Start completed.
-2022-09-13 19:04:06 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2022-09-13 19:04:06 - ERROR - Failed to initialize JPA EntityManagerFactory: mappedBy reference an unknown target entity property: com.example.NykaaAppAPI.model.Cart.product in com.example.NykaaAppAPI.model.Product.carts
-2022-09-13 19:04:06 - INFO - HikariPool-1 - Shutdown initiated...
-2022-09-13 19:04:06 - INFO - HikariPool-1 - Shutdown completed.
-2022-09-13 19:04:06 - INFO - Stopping service [Tomcat]
-2022-09-13 19:04:06 - ERROR - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: com.example.NykaaAppAPI.model.Cart.product in com.example.NykaaAppAPI.model.Product.carts
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
-	at com.example.NykaaAppAPI.NykaaAppApiApplication.main(NykaaAppApiApplication.java:11)
-Caused by: org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: com.example.NykaaAppAPI.model.Cart.product in com.example.NykaaAppAPI.model.Product.carts
-	at org.hibernate.cfg.annotations.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:875)
-	at org.hibernate.cfg.annotations.CollectionBinder$1.secondPass(CollectionBinder.java:826)
-	at org.hibernate.cfg.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:54)
+Caused by: org.hibernate.AnnotationException: Unknown mappedBy in: com.example.NykaaAppAPI.model.File.product, referenced property unknown: com.example.NykaaAppAPI.model.Product.file
+	at org.hibernate.cfg.OneToOneSecondPass.doSecondPass(OneToOneSecondPass.java:170)
 	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1653)
 	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1629)
 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:295)
@@ -353,23 +523,96 @@ Caused by: org.hibernate.AnnotationException: mappedBy reference an unknown targ
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
 	... 16 common frames omitted
-2022-09-13 19:10:08 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 10996 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
-2022-09-13 19:10:08 - INFO - No active profile set, falling back to 1 default profile: "default"
-2022-09-13 19:10:09 - INFO - Starting service [Tomcat]
-2022-09-13 19:10:09 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-13 19:10:09 - INFO - Initializing Spring embedded WebApplicationContext
-2022-09-13 19:10:09 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-09-13 19:10:09 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-09-13 19:10:09 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-09-13 19:10:09 - INFO - HikariPool-1 - Starting...
-2022-09-13 19:10:10 - INFO - HikariPool-1 - Start completed.
-2022-09-13 19:10:10 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2022-09-13 19:10:10 - ERROR - Failed to initialize JPA EntityManagerFactory: mappedBy reference an unknown target entity property: com.example.NykaaAppAPI.model.Cart.product in com.example.NykaaAppAPI.model.Product.carts
-2022-09-13 19:10:10 - INFO - HikariPool-1 - Shutdown initiated...
-2022-09-13 19:10:10 - INFO - HikariPool-1 - Shutdown completed.
-2022-09-13 19:10:10 - INFO - Stopping service [Tomcat]
-2022-09-13 19:10:10 - ERROR - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: com.example.NykaaAppAPI.model.Cart.product in com.example.NykaaAppAPI.model.Product.carts
+2022-09-14 11:08:41 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 17788 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
+2022-09-14 11:08:41 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-14 11:08:42 - INFO - Starting service [Tomcat]
+2022-09-14 11:08:42 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 11:08:42 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-14 11:08:42 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-14 11:08:42 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-14 11:08:43 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-14 11:08:43 - INFO - HikariPool-1 - Starting...
+2022-09-14 11:08:43 - INFO - HikariPool-1 - Start completed.
+2022-09-14 11:08:43 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-14 11:08:43 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-14 11:08:45 - INFO - Started NykaaAppApiApplication in 4.106 seconds (JVM running for 4.452)
+2022-09-14 11:09:39 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-14 12:42:11 - ERROR - No product with id 48
+2022-09-14 12:42:22 - ERROR - No product with id 48
+2022-09-14 14:43:13 - ERROR - Product already exists.
+2022-09-14 14:43:34 - ERROR - Product already exists.
+2022-09-14 14:45:04 - ERROR - Product already exists.
+2022-09-14 15:25:00 - WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s77ms230µs800ns).
+2022-09-14 16:23:37 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-14 16:23:37 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-14 16:23:45 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 6164 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
+2022-09-14 16:23:45 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-14 16:23:48 - INFO - Starting service [Tomcat]
+2022-09-14 16:23:48 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 16:23:48 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-14 16:23:48 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-14 16:23:48 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-14 16:23:49 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-14 16:23:49 - INFO - HikariPool-1 - Starting...
+2022-09-14 16:23:49 - INFO - HikariPool-1 - Start completed.
+2022-09-14 16:23:49 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-14 16:23:50 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-14 16:23:51 - INFO - Started NykaaAppApiApplication in 6.448 seconds (JVM running for 6.992)
+2022-09-14 16:33:04 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-14 16:34:27 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-14 16:34:27 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-14 16:34:34 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 15876 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
+2022-09-14 16:34:34 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-14 16:34:35 - INFO - Starting service [Tomcat]
+2022-09-14 16:34:35 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 16:34:35 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-14 16:34:36 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-14 16:34:36 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-14 16:34:36 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-14 16:34:36 - INFO - HikariPool-1 - Starting...
+2022-09-14 16:34:36 - INFO - HikariPool-1 - Start completed.
+2022-09-14 16:34:36 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-14 16:34:37 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-14 16:34:38 - INFO - Started NykaaAppApiApplication in 4.781 seconds (JVM running for 5.183)
+2022-09-14 16:35:31 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-14 16:35:31 - ERROR - No products in the cart for the user
+2022-09-14 17:24:19 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-14 17:24:19 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-14 17:24:24 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 8152 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
+2022-09-14 17:24:24 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-14 17:24:25 - INFO - Starting service [Tomcat]
+2022-09-14 17:24:25 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 17:24:25 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-14 17:24:25 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-14 17:24:25 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-14 17:24:25 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-14 17:24:25 - INFO - HikariPool-1 - Starting...
+2022-09-14 17:24:25 - INFO - HikariPool-1 - Start completed.
+2022-09-14 17:24:25 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-14 17:24:26 - INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-14 17:24:27 - INFO - Started NykaaAppApiApplication in 3.61 seconds (JVM running for 3.941)
+2022-09-14 17:43:12 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-14 17:49:01 - WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m5s237ms340µs100ns).
+2022-09-14 17:58:50 - ERROR - USer does not exists 
+2022-09-14 19:12:35 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-14 19:12:35 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-14 19:12:45 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 4648 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
+2022-09-14 19:12:45 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-14 19:12:47 - INFO - Starting service [Tomcat]
+2022-09-14 19:12:47 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 19:12:47 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-14 19:12:48 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-14 19:12:48 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-14 19:12:48 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-14 19:12:48 - INFO - HikariPool-1 - Starting...
+2022-09-14 19:12:48 - INFO - HikariPool-1 - Start completed.
+2022-09-14 19:12:48 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-14 19:12:48 - ERROR - Failed to initialize JPA EntityManagerFactory: Unable to find column with logical name: movieId in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
+2022-09-14 19:12:48 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-14 19:12:48 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-14 19:12:48 - INFO - Stopping service [Tomcat]
+2022-09-14 19:12:49 - ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Unable to find column with logical name: movieId in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
@@ -387,12 +630,13 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
 	at com.example.NykaaAppAPI.NykaaAppApiApplication.main(NykaaAppApiApplication.java:11)
-Caused by: org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: com.example.NykaaAppAPI.model.Cart.product in com.example.NykaaAppAPI.model.Product.carts
-	at org.hibernate.cfg.annotations.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:875)
-	at org.hibernate.cfg.annotations.CollectionBinder$1.secondPass(CollectionBinder.java:826)
-	at org.hibernate.cfg.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:54)
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1653)
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1629)
+Caused by: org.hibernate.MappingException: Unable to find column with logical name: movieId in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
+	at org.hibernate.cfg.Ejb3JoinColumn.checkReferencedColumnsType(Ejb3JoinColumn.java:839)
+	at org.hibernate.cfg.BinderHelper.createSyntheticPropertyReference(BinderHelper.java:126)
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:104)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processEndOfQueue(InFlightMetadataCollectorImpl.java:1750)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processFkSecondPassesInOrder(InFlightMetadataCollectorImpl.java:1694)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1623)
 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:295)
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
@@ -404,23 +648,23 @@ Caused by: org.hibernate.AnnotationException: mappedBy reference an unknown targ
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
 	... 16 common frames omitted
-2022-09-13 19:14:11 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 8308 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
-2022-09-13 19:14:11 - INFO - No active profile set, falling back to 1 default profile: "default"
-2022-09-13 19:14:12 - INFO - Starting service [Tomcat]
-2022-09-13 19:14:12 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-13 19:14:12 - INFO - Initializing Spring embedded WebApplicationContext
-2022-09-13 19:14:12 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-09-13 19:14:12 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-09-13 19:14:12 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-09-13 19:14:12 - INFO - HikariPool-1 - Starting...
-2022-09-13 19:14:12 - INFO - HikariPool-1 - Start completed.
-2022-09-13 19:14:12 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2022-09-13 19:14:12 - ERROR - Failed to initialize JPA EntityManagerFactory: mappedBy reference an unknown target entity property: com.example.NykaaAppAPI.model.Cart.product in com.example.NykaaAppAPI.model.Product.carts
-2022-09-13 19:14:12 - INFO - HikariPool-1 - Shutdown initiated...
-2022-09-13 19:14:12 - INFO - HikariPool-1 - Shutdown completed.
-2022-09-13 19:14:12 - INFO - Stopping service [Tomcat]
-2022-09-13 19:14:13 - ERROR - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: com.example.NykaaAppAPI.model.Cart.product in com.example.NykaaAppAPI.model.Product.carts
+2022-09-14 19:16:46 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 18744 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
+2022-09-14 19:16:46 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-14 19:16:48 - INFO - Starting service [Tomcat]
+2022-09-14 19:16:48 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 19:16:48 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-14 19:16:48 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-14 19:16:48 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-14 19:16:48 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-14 19:16:48 - INFO - HikariPool-1 - Starting...
+2022-09-14 19:16:49 - INFO - HikariPool-1 - Start completed.
+2022-09-14 19:16:49 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-14 19:16:49 - ERROR - Failed to initialize JPA EntityManagerFactory: Unable to find column with logical name: movieId in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
+2022-09-14 19:16:49 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-14 19:16:49 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-14 19:16:49 - INFO - Stopping service [Tomcat]
+2022-09-14 19:16:49 - ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Unable to find column with logical name: movieId in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
@@ -438,12 +682,13 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
 	at com.example.NykaaAppAPI.NykaaAppApiApplication.main(NykaaAppApiApplication.java:11)
-Caused by: org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: com.example.NykaaAppAPI.model.Cart.product in com.example.NykaaAppAPI.model.Product.carts
-	at org.hibernate.cfg.annotations.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:875)
-	at org.hibernate.cfg.annotations.CollectionBinder$1.secondPass(CollectionBinder.java:826)
-	at org.hibernate.cfg.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:54)
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1653)
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1629)
+Caused by: org.hibernate.MappingException: Unable to find column with logical name: movieId in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
+	at org.hibernate.cfg.Ejb3JoinColumn.checkReferencedColumnsType(Ejb3JoinColumn.java:839)
+	at org.hibernate.cfg.BinderHelper.createSyntheticPropertyReference(BinderHelper.java:126)
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:104)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processEndOfQueue(InFlightMetadataCollectorImpl.java:1750)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processFkSecondPassesInOrder(InFlightMetadataCollectorImpl.java:1694)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1623)
 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:295)
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
@@ -455,23 +700,23 @@ Caused by: org.hibernate.AnnotationException: mappedBy reference an unknown targ
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
 	... 16 common frames omitted
-2022-09-13 19:14:19 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 12996 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
-2022-09-13 19:14:19 - INFO - No active profile set, falling back to 1 default profile: "default"
-2022-09-13 19:14:21 - INFO - Starting service [Tomcat]
-2022-09-13 19:14:21 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-13 19:14:21 - INFO - Initializing Spring embedded WebApplicationContext
-2022-09-13 19:14:21 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-09-13 19:14:21 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-09-13 19:14:21 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-09-13 19:14:21 - INFO - HikariPool-1 - Starting...
-2022-09-13 19:14:21 - INFO - HikariPool-1 - Start completed.
-2022-09-13 19:14:21 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2022-09-13 19:14:21 - ERROR - Failed to initialize JPA EntityManagerFactory: mappedBy reference an unknown target entity property: com.example.NykaaAppAPI.model.Cart.product in com.example.NykaaAppAPI.model.Product.carts
-2022-09-13 19:14:21 - INFO - HikariPool-1 - Shutdown initiated...
-2022-09-13 19:14:21 - INFO - HikariPool-1 - Shutdown completed.
-2022-09-13 19:14:21 - INFO - Stopping service [Tomcat]
-2022-09-13 19:14:21 - ERROR - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: com.example.NykaaAppAPI.model.Cart.product in com.example.NykaaAppAPI.model.Product.carts
+2022-09-14 19:19:16 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 16740 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
+2022-09-14 19:19:16 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-14 19:19:18 - INFO - Starting service [Tomcat]
+2022-09-14 19:19:18 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 19:19:18 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-14 19:19:18 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-14 19:19:18 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-14 19:19:19 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-14 19:19:19 - INFO - HikariPool-1 - Starting...
+2022-09-14 19:19:19 - INFO - HikariPool-1 - Start completed.
+2022-09-14 19:19:19 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-14 19:19:19 - ERROR - Failed to initialize JPA EntityManagerFactory: Unable to find column with logical name: movieId in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
+2022-09-14 19:19:19 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-14 19:19:19 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-14 19:19:19 - INFO - Stopping service [Tomcat]
+2022-09-14 19:19:19 - ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Unable to find column with logical name: movieId in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
@@ -489,12 +734,13 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
 	at com.example.NykaaAppAPI.NykaaAppApiApplication.main(NykaaAppApiApplication.java:11)
-Caused by: org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: com.example.NykaaAppAPI.model.Cart.product in com.example.NykaaAppAPI.model.Product.carts
-	at org.hibernate.cfg.annotations.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:875)
-	at org.hibernate.cfg.annotations.CollectionBinder$1.secondPass(CollectionBinder.java:826)
-	at org.hibernate.cfg.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:54)
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1653)
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1629)
+Caused by: org.hibernate.MappingException: Unable to find column with logical name: movieId in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
+	at org.hibernate.cfg.Ejb3JoinColumn.checkReferencedColumnsType(Ejb3JoinColumn.java:839)
+	at org.hibernate.cfg.BinderHelper.createSyntheticPropertyReference(BinderHelper.java:126)
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:104)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processEndOfQueue(InFlightMetadataCollectorImpl.java:1750)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processFkSecondPassesInOrder(InFlightMetadataCollectorImpl.java:1694)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1623)
 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:295)
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
@@ -506,23 +752,23 @@ Caused by: org.hibernate.AnnotationException: mappedBy reference an unknown targ
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
 	... 16 common frames omitted
-2022-09-13 19:23:21 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 11100 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
-2022-09-13 19:23:21 - INFO - No active profile set, falling back to 1 default profile: "default"
-2022-09-13 19:23:22 - INFO - Starting service [Tomcat]
-2022-09-13 19:23:22 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-13 19:23:22 - INFO - Initializing Spring embedded WebApplicationContext
-2022-09-13 19:23:23 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-09-13 19:23:23 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-09-13 19:23:23 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-09-13 19:23:23 - INFO - HikariPool-1 - Starting...
-2022-09-13 19:23:23 - INFO - HikariPool-1 - Start completed.
-2022-09-13 19:23:23 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2022-09-13 19:23:23 - ERROR - Failed to initialize JPA EntityManagerFactory: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-2022-09-13 19:23:23 - INFO - HikariPool-1 - Shutdown initiated...
-2022-09-13 19:23:23 - INFO - HikariPool-1 - Shutdown completed.
-2022-09-13 19:23:23 - INFO - Stopping service [Tomcat]
-2022-09-13 19:23:23 - ERROR - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
+2022-09-14 19:21:20 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 14060 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
+2022-09-14 19:21:20 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-14 19:21:22 - INFO - Starting service [Tomcat]
+2022-09-14 19:21:22 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 19:21:22 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-14 19:21:23 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-14 19:21:23 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-14 19:21:23 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-14 19:21:23 - INFO - HikariPool-1 - Starting...
+2022-09-14 19:21:23 - INFO - HikariPool-1 - Start completed.
+2022-09-14 19:21:23 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-14 19:21:23 - ERROR - Failed to initialize JPA EntityManagerFactory: Unable to find column with logical name: id in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
+2022-09-14 19:21:23 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-14 19:21:23 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-14 19:21:23 - INFO - Stopping service [Tomcat]
+2022-09-14 19:21:23 - ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Unable to find column with logical name: id in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
@@ -540,14 +786,14 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
 	at com.example.NykaaAppAPI.NykaaAppApiApplication.main(NykaaAppApiApplication.java:11)
-Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-	at org.hibernate.cfg.annotations.CollectionBinder.getCollectionBinder(CollectionBinder.java:325)
-	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1977)
-	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:968)
-	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:793)
-	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:225)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282)
+Caused by: org.hibernate.MappingException: Unable to find column with logical name: id in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
+	at org.hibernate.cfg.Ejb3JoinColumn.checkReferencedColumnsType(Ejb3JoinColumn.java:839)
+	at org.hibernate.cfg.BinderHelper.createSyntheticPropertyReference(BinderHelper.java:126)
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:104)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processEndOfQueue(InFlightMetadataCollectorImpl.java:1750)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processFkSecondPassesInOrder(InFlightMetadataCollectorImpl.java:1694)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1623)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:295)
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
 	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
@@ -558,23 +804,23 @@ Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non colle
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
 	... 16 common frames omitted
-2022-09-13 19:25:33 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 15900 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
-2022-09-13 19:25:33 - INFO - No active profile set, falling back to 1 default profile: "default"
-2022-09-13 19:25:35 - INFO - Starting service [Tomcat]
-2022-09-13 19:25:35 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-13 19:25:35 - INFO - Initializing Spring embedded WebApplicationContext
-2022-09-13 19:25:35 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-09-13 19:25:35 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-09-13 19:25:35 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-09-13 19:25:35 - INFO - HikariPool-1 - Starting...
-2022-09-13 19:25:35 - INFO - HikariPool-1 - Start completed.
-2022-09-13 19:25:35 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2022-09-13 19:25:35 - ERROR - Failed to initialize JPA EntityManagerFactory: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-2022-09-13 19:25:35 - INFO - HikariPool-1 - Shutdown initiated...
-2022-09-13 19:25:35 - INFO - HikariPool-1 - Shutdown completed.
-2022-09-13 19:25:35 - INFO - Stopping service [Tomcat]
-2022-09-13 19:25:35 - ERROR - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
+2022-09-14 19:22:04 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 18076 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
+2022-09-14 19:22:04 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-14 19:22:07 - INFO - Starting service [Tomcat]
+2022-09-14 19:22:07 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 19:22:07 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-14 19:22:07 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-14 19:22:07 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-14 19:22:07 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-14 19:22:07 - INFO - HikariPool-1 - Starting...
+2022-09-14 19:22:08 - INFO - HikariPool-1 - Start completed.
+2022-09-14 19:22:08 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-14 19:22:08 - ERROR - Failed to initialize JPA EntityManagerFactory: Unable to find column with logical name: id in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
+2022-09-14 19:22:08 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-14 19:22:08 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-14 19:22:08 - INFO - Stopping service [Tomcat]
+2022-09-14 19:22:08 - ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Unable to find column with logical name: id in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
@@ -592,14 +838,14 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
 	at com.example.NykaaAppAPI.NykaaAppApiApplication.main(NykaaAppApiApplication.java:11)
-Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-	at org.hibernate.cfg.annotations.CollectionBinder.getCollectionBinder(CollectionBinder.java:325)
-	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1977)
-	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:968)
-	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:793)
-	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:225)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282)
+Caused by: org.hibernate.MappingException: Unable to find column with logical name: id in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
+	at org.hibernate.cfg.Ejb3JoinColumn.checkReferencedColumnsType(Ejb3JoinColumn.java:839)
+	at org.hibernate.cfg.BinderHelper.createSyntheticPropertyReference(BinderHelper.java:126)
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:104)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processEndOfQueue(InFlightMetadataCollectorImpl.java:1750)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processFkSecondPassesInOrder(InFlightMetadataCollectorImpl.java:1694)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1623)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:295)
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
 	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
@@ -610,23 +856,23 @@ Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non colle
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
 	... 16 common frames omitted
-2022-09-13 19:35:17 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 12180 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
-2022-09-13 19:35:17 - INFO - No active profile set, falling back to 1 default profile: "default"
-2022-09-13 19:35:18 - INFO - Starting service [Tomcat]
-2022-09-13 19:35:18 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-09-13 19:35:18 - INFO - Initializing Spring embedded WebApplicationContext
-2022-09-13 19:35:18 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-09-13 19:35:19 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-09-13 19:35:19 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-09-13 19:35:19 - INFO - HikariPool-1 - Starting...
-2022-09-13 19:35:19 - INFO - HikariPool-1 - Start completed.
-2022-09-13 19:35:19 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2022-09-13 19:35:19 - ERROR - Failed to initialize JPA EntityManagerFactory: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-2022-09-13 19:35:19 - INFO - HikariPool-1 - Shutdown initiated...
-2022-09-13 19:35:19 - INFO - HikariPool-1 - Shutdown completed.
-2022-09-13 19:35:19 - INFO - Stopping service [Tomcat]
-2022-09-13 19:35:19 - ERROR - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
+2022-09-14 19:23:02 - INFO - Starting NykaaAppApiApplication using Java 18.0.2 on DELL-66F8DL3 with PID 17616 (D:\project\NykaaApp-API\target\classes started by Administrator in D:\project\NykaaApp-API)
+2022-09-14 19:23:02 - INFO - No active profile set, falling back to 1 default profile: "default"
+2022-09-14 19:23:03 - INFO - Starting service [Tomcat]
+2022-09-14 19:23:03 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 19:23:04 - INFO - Initializing Spring embedded WebApplicationContext
+2022-09-14 19:23:04 - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-14 19:23:04 - INFO - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-14 19:23:04 - INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-14 19:23:04 - INFO - HikariPool-1 - Starting...
+2022-09-14 19:23:04 - INFO - HikariPool-1 - Start completed.
+2022-09-14 19:23:04 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-09-14 19:23:05 - ERROR - Failed to initialize JPA EntityManagerFactory: Unable to find column with logical name: id in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
+2022-09-14 19:23:05 - INFO - HikariPool-1 - Shutdown initiated...
+2022-09-14 19:23:05 - INFO - HikariPool-1 - Shutdown completed.
+2022-09-14 19:23:05 - INFO - Stopping service [Tomcat]
+2022-09-14 19:23:05 - ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Unable to find column with logical name: id in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
@@ -644,14 +890,14 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
 	at com.example.NykaaAppAPI.NykaaAppApiApplication.main(NykaaAppApiApplication.java:11)
-Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: com.example.NykaaAppAPI.model.NykaaUser.cart
-	at org.hibernate.cfg.annotations.CollectionBinder.getCollectionBinder(CollectionBinder.java:325)
-	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1977)
-	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:968)
-	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:793)
-	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:225)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282)
+Caused by: org.hibernate.MappingException: Unable to find column with logical name: id in org.hibernate.mapping.Table(product) and its related supertables and secondary tables
+	at org.hibernate.cfg.Ejb3JoinColumn.checkReferencedColumnsType(Ejb3JoinColumn.java:839)
+	at org.hibernate.cfg.BinderHelper.createSyntheticPropertyReference(BinderHelper.java:126)
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:104)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processEndOfQueue(InFlightMetadataCollectorImpl.java:1750)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processFkSecondPassesInOrder(InFlightMetadataCollectorImpl.java:1694)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1623)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:295)
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
 	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)

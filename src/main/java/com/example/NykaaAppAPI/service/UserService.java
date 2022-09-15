@@ -1,8 +1,10 @@
 package com.example.NykaaAppAPI.service;
+import com.example.NykaaAppAPI.exception.ResourceNotFoundException;
 import com.example.NykaaAppAPI.model.NykaaUser;
 import com.example.NykaaAppAPI.model.Role;
 import com.example.NykaaAppAPI.repository.RoleRepository;
 import com.example.NykaaAppAPI.repository.UserRepository;
+import com.example.NykaaAppAPI.response.AuthResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -28,12 +30,17 @@ public class UserService {
     }
 
 
-    public NykaaUser loginAsCustomer(NykaaUser nykaaUser) {
+    public AuthResponse loginAsCustomer(NykaaUser nykaaUser) {
         NykaaUser user = userRepository.findByMailId(nykaaUser.getMailId());
         if (user != null && bCryptPasswordEncoder.matches(nykaaUser.getPassword(), user.getPassword())) {
-            return user;
+            AuthResponse authResponse = new AuthResponse();
+            authResponse.setUserName(user.getName());
+            authResponse.setRole(user.getRoles().iterator().next().getName());
+            authResponse.setId(user.getUserId());
+            authResponse.setMailId(user.getMailId());
+            return authResponse;
         }
-        return null;
+        throw new ResourceNotFoundException("USer does not exists ");
     }
 
     public List<NykaaUser> getAllUsers() {

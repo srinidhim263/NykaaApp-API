@@ -38,26 +38,26 @@ public class CartService {
                 .orElseThrow(() -> new ResourceNotFoundException("Product does not exist with id "
                         + cartRequest.getProductId()));
 
-        Cart cart = cartRepository.findByProductUser(nykaaUser)
+        Cart cart = cartRepository.findByNykaaUser(nykaaUser)
                 .orElseThrow(() -> new ResourceNotFoundException("No products in the cart for the user"));
 
-            if (cartProductRepository.findByProductAndCart(product , cart).isPresent()){
-                cartProducts = cartProductRepository.findByProductAndCart(product , cart).get();
-                boolean isExist = false;
-                for(CartProduct cartProduct : cartProducts){
-                    if(cartProduct.getProduct().equals(product)){
-                           cartProduct.setCount(cartRequest.getCount());
-                           cartProductRepository.save(cartProduct);
-                           isExist = true;
-                    }
-                }
-                if (!isExist) {
-                    cartProducts.add(addProductToCart(product, cart, cartRequest.getCount()));
-                }
-
-            } else {
-                cartProducts.add(addProductToCart(product, cart, cartRequest.getCount()));
-            }
+//            if (cartProductRepository.findByProductAndCart(product , cart).isPresent()){
+//                cartProducts = cartProductRepository.findByProductAndCart(product , cart).get();
+//                boolean isExist = false;
+//                for(CartProduct cartProduct : cartProducts){
+//                    if(cartProduct.getProduct().equals(product)){
+//                           cartProduct.setCount(cartRequest.getCount());
+//                           cartProductRepository.save(cartProduct);
+//                           isExist = true;
+//                    }
+//                }
+//                if (!isExist) {
+//                    cartProducts.add(addProductToCart(product, cart, cartRequest.getCount()));
+//                }
+//
+//            } else {
+//                cartProducts.add(addProductToCart(product, cart, cartRequest.getCount()));
+//            }
         return cartProductRepository.findByCart(nykaaUser.getCart())
                 .orElseThrow(() -> new ResourceNotFoundException("No products in the cart for the user"));
     }
